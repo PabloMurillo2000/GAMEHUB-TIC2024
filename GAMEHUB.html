@@ -1,0 +1,144 @@
+<!-- 
+PAGINA WEB. debe contener [un titulo, un logo, 
+un menu, varias seciones con texto y una barra lateral.]
+
+==============================
+------PALETA DE COLORES-------
+#6f3460 (Morado muy oscuro)
+#4c007d (Morado ocuro)
+#7f00b2 (Morado)
+#6f3460 (Morado claro)
+#6f3460 (Morado difuminado)
+#00b380 (Azul complementario)
+===============================
+
+==========================================
+---------------CONTENIDOS-----------------
+TITULO: GAME-HUB (HUB con #ff00ff)
+MENU: //INICIO/NOTICIAS/FOROS/CREACIONES//
+SECCIONES (SCCs): x3 Div que contengan
+cosas llamativas con colores de la paleta.
+BARA LATERAL: Murillo info.
+PIE D PAGINA: informacion tecnica.
+==========================================
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+            --------------Conectar con CSS y adaptar la pagina a la pantalla.----------------
+        -->
+        <link rel="stylesheet"type="text/css" href="GAMEHUB.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="c:\Users\jaime\Downloads\OIG4.png" type="image/x-icon">
+        <title>GAMEHUB</title>
+    </head>
+        <!--
+            -----------------------------------------PAGINA EN HTML----------------------------------------------
+        -->
+    <body>
+        <!--
+            --------------TITULO DE LA PAGINA----------------
+        -->
+        <div class="Titulodepagina">
+            <h2>
+                <strong>
+                    GAMES<span style="color:#ff00ff;">HUB</span>
+                </strong>
+            </h2>
+        </div>
+                <!--
+                --------------MENU DE LA PAGINA----------------
+                -->
+        <section class="MENU">
+            <header>
+                <div class="menudepaginas">
+                    <nav>
+                        <ul> <!--Este es el menu-->
+                            <li><a href="file:///C:/Users/jaime/Desktop/GAMEHUB.html">Inicio</a></li> 
+                            <li><a href="file:///C:/Users/jaime/Desktop/POO/subP.html">Noticias</a></li>
+                            <li><a href="file:///C:/Users/jaime/Desktop/POO/Novedades.html">Novedades</a></li>
+                            <li><a href="file:///C:/Users/jaime/Desktop/POO/Foros.html">Foros</a></li>
+                            <li><a href="file:///C:/Users/jaime/Desktop/POO/Creaciones.html">Creaciones</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </section>
+
+            <!--
+            --------------PARTE PRINCIPAL DE LA PAGINA----------------
+                    (Secciones principales y barra lateral)
+            -->
+        <div class="contenidos">
+
+                <!--
+                --------------SECCs----------------
+                -->
+            <div class="seciones">
+                <div class="SECC_1">
+                    <h2>12 MILLONES</h2>
+                    <h3>de juegadores diarios</h3>
+                    <div class="fakeimg" style="height:200px;">
+                        <img src="" alt="imagen">
+                    </div>
+                </div>
+
+                <div class="SECC_2">
+                    <h2>MAS DE 51000</h2>
+                    <h3>videojuegos creados</h3>
+                    <div class="fakeimg" style="height:200px;">
+                        <img src="" alt="imagen">
+                    </div>
+                </div>
+
+                <div class="SECC_3">
+                    <h2>74 AÑOS</h2>
+                    <h3>jugando como locos</h3>
+                    <div class="fakeimg" style="height:200px;">
+                        <img src="" alt="imagen">
+                    </div>
+                </div>
+            </div>
+
+                    <!--
+                    --------------BARRA LATERAL----------------
+                    -->
+
+            <div class="barra_lateral">
+
+                <div class="Barra_lateral_Divs">
+                    <h2>¿Que es GAMEHUB?</h2>
+                    <p>GAMEHUB es un proyecto colaborativo que sigue el concepto de LAND PAGE. En GAMEHUB encontraras rutas de acceso para las mas importantes Webs relacionadas con el mundo de los videojuegos.
+                    </p>
+                    <p>En las subpaginas de GAMEHUB podras acceder a sites como:</p>
+                    <p>- VANDAL</p>
+                    <p>- Reddit</p>
+                    <p>- GitHub</p>
+                </div>
+
+                <div class="Barra_lateral_Divs">
+                    <h3>¿Que hacer en GAMEHUB?</h3>
+                    <p>En GAMEHUB podras acceder a paginas de interes asi como compartir experiencias con otros usuarios en el foro publico. </p>
+                    <p>Podras incluso publicar tus propias creaciones para que la comunidad las disfrute en la secion de "creaciones".</p>
+                </div>
+
+                <div class="Barra_lateral_Divs">
+                    <h3 style="text-align: center; color: darkred;">ADVERTENCIA</h3>
+                    <p>GAMEHUB es un proyecto en desarrollo. Muchas de las opciones estan inacabadas por motivos de desconociemiento. Nosotros los creadores somos etudiantes y estamos aprendiendo a medidad que la pagina crece. </p>
+                    <p>Gracias por su paciencia y comprension. Esperamos que las opciones disponibles te ayuden y que vuelvas en el futuro a probar el resto.</p>
+                </div>
+            </div>
+        </div>
+                <!--
+                --------------PIE DE PAGINA----------------
+                -->
+            <div class="footer">
+            <p>Creadores: Pablo Trigo y Hector Reca.</p>
+            <p>2º Barchiderato del IES Murillo para la clase de tecnologias de la informacion y la comunicacion<p>
+            <p>Practicas con HTML 2024</p>
+            <img src="data:image/jpeg;base64,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" alt="">
+            </div>
+
+    </body>
+</html>

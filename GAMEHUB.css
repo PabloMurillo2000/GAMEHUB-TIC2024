@@ -1,0 +1,152 @@
+
+            /* Para encajetar las partes de la pagina. */
+            * {
+                box-sizing: border-box;
+            }
+
+            /* BACKGROUND DE LA PAGINA */
+            body {
+                font-family: Arial;
+                padding: 20px;
+                background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXwZ8W_BoGJ3shUU7P0W5lrn2OD1HEVQv8zA&usqp=CAU)
+
+            }
+
+            /* TITULO DE LA PAGINA*/
+            .Titulodepagina {
+                padding: 30px;
+                font-size: 40px;
+                text-align: center;
+                background: white;
+                
+            }
+
+            /* 2 COLUMNAS EN LAS QUE VAN LAS SECCIONES PRINCIPALES Y LA BARRA LATERAL*/
+
+            /* SECCIONES PRINCIPALES */
+            .seciones {   
+                float: left;
+                width: 75%;
+            }
+
+            /* Div individual para la columna principal */
+            .seciones .SECC_1{
+                padding: 20px;
+                margin-top: 20px;
+                background-color: #6664ff;
+                border-radius: 10px;
+                color: #ffffff;
+            }
+
+            .SECC_2{
+                padding: 20px;
+                margin-top: 20px;
+                background-color: #2b97fa;
+                border-radius: 10px;
+                color: #ffffff;
+            }
+
+            .SECC_3{
+                padding: 20px;
+                margin-top: 20px;
+                background-color: #01c4e7;
+                border-radius: 10px;
+                color: #ffffff;
+            }
+
+
+            /* BARRA LATERAL */
+            .barra_lateral {
+                text-align: justify;
+                float: left;
+                width: 25%;
+                padding-left: 20px;
+            }
+
+            /* CONTENIDOS DE LA BARRA LATERAL */
+            .Barra_lateral_Divs {
+                padding: 20px;
+                margin-top: 20px;
+                background-color: #9a27f7;
+                border-radius: 10px;
+                color: #ffffff;
+            }
+
+            /* IMAGENES DE LAS SECCIONES*/
+            .fakeimg {
+                background-color: #aaa;
+                width: 100%;
+                padding: 0;
+            }
+            .fakeimg img{
+                width: 100%;
+                height: 100%;
+            }
+
+
+            /* PIE DE PAGINA */
+            .footer {
+                text-align: center;
+                padding: 20px;
+                background: #ffffff;
+                margin-top: 20px;
+            }
+            
+
+            /* MENU DE LA PAGINA  */
+            .MENU {
+                margin-top: 20px;
+                overflow: hidden;
+                display: block;
+                border-radius: 10px;
+                background-color: #c501e2;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            .menudepaginas{
+                margin-top: 5px;
+                margin-bottom: 18px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .menudepaginas nav ul li {  /* Esto es para editar el menu de las subpaginas. */
+                align-items: center;
+                list-style:none;
+                margin: 2px;;
+                float: left;
+                padding: 10;
+            }
+            
+            .menudepaginas nav ul li a {
+                background-color: #6f3460;
+                padding:10px 20px;
+                display:block;
+                border: 2px solid #6f3460;
+                color:rgb(255, 255, 255);
+                text-decoration:none;
+            }
+            .menudepaginas nav ul li a:hover{
+                background: #4a354f;
+                color: white;
+            }
+
+            /* para que al ser la pantalla (pestaña) menor a 800 pixeles, la barra lateral y las secciones principales
+            se vuelen uno hasta que see mayor que 800px */
+            @media screen and (max-width: 800px) {
+            .seciones, .barra_lateral {   
+                width: 100%;
+                padding: 0;
+            }
+            }
+
+                /* para que el pie de pagina no se desconfigure (honestamente no se porque ocurre lo contrario
+                lo lamento profesor)  */
+            .contenidos:after {
+                content: "";
+                display: table;
+                clear: both;
+            }

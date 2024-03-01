@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+/* BACKGROUND DE LA PAGINA */
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXwZ8W_BoGJ3shUU7P0W5lrn2OD1HEVQv8zA&usqp=CAU)
+
+}
+
+/* TITULO DE LA PAGINA*/
+.Titulodepagina {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    
+}
+
+.SECC_1{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #d9fc16;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.MENU {
+    margin-top: 20px;
+    overflow: hidden;
+    display: block;
+    border-radius: 10px;
+    background-color: #c501e2;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menudepaginas{
+    margin-top: 5px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menudepaginas nav ul li {  /* Esto es para editar el menu de las subpaginas. */
+    align-items: center;
+    list-style:none;
+    margin: 2px;;
+    float: left;
+    padding: 10;
+}
+
+.menudepaginas nav ul li a {
+    background-color: #6f3460;
+    padding:10px 20px;
+    display:block;
+    border: 2px solid #6f3460;
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+}
+.menudepaginas nav ul li a:hover{
+    background: #4a354f;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    margin-top: 20px;
+}
